@@ -342,7 +342,7 @@
 
   </div>
 
-  <div class="scroll-hint">← Scroll →</div>
+
 </div>
 
 <!-- ================= WEB UI OVERLAY ================= -->
@@ -931,7 +931,7 @@
 
   </div>
 
-  <div class="scroll-hint">← Scroll →</div>
+  
 </div>
 <!-- ================= ABOUT / EXPERIENCE ================= -->
 <section id="about" class="about-section">
@@ -1052,23 +1052,34 @@
 
 <script>
 function openMobileUI(){
+  // Close web first
+  document.getElementById("webOverlay").style.display = "none";
+
+  // Open mobile
   document.getElementById("mobileOverlay").style.display = "block";
   document.body.style.overflow = "hidden";
 }
+
 function closeMobileUI(){
   document.getElementById("mobileOverlay").style.display = "none";
   document.body.style.overflow = "auto";
 }
 
 function openWebUI(){
+  // Close mobile first
+  document.getElementById("mobileOverlay").style.display = "none";
+
+  // Open web
   document.getElementById("webOverlay").style.display = "block";
   document.body.style.overflow = "hidden";
 }
+
 function closeWebUI(){
   document.getElementById("webOverlay").style.display = "none";
   document.body.style.overflow = "auto";
 }
 </script>
+
 
 </body>
 </html>
