@@ -1,0 +1,1074 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Siddharth Roy | UI/UX Designer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Bootstrap GRID -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap-grid.min.css" rel="stylesheet"/>
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet"/>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+<!-- ================= HERO ================= -->
+<section class="hero">
+  <div class="blob b1"></div>
+  <div class="blob b2"></div>
+
+ <div class="container">
+  <div class="hero-grid">
+
+    <!-- LEFT CONTENT -->
+    <div class="hero-content">
+
+      <span class="eyebrow">
+        UI/UX DESIGNER • ENTERPRISE & SAAS
+      </span>
+
+      <h1>
+        Designing<br/>
+        <span class="gradient-text">immersive digital</span><br/>
+        experiences
+      </h1>
+
+      <p>
+        I design scalable mobile apps, responsive SaaS platforms,
+        and enterprise systems with strong UX, clean UI,
+        and real business impact.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#work" class="btn-primary">View Work</a>
+        <a href="#contact" class="btn-secondary">Contact</a>
+      </div>
+
+    </div>
+
+    <!-- RIGHT VISUAL (OPTIONAL BUT POWERFUL) -->
+    <div class="hero-visual">
+      <div class="hero-orb"></div>
+      <div class="hero-orb secondary"></div>
+    </div>
+
+  </div>
+</div>
+
+</section>
+
+<!-- ================= WHAT I CREATE ================= -->
+<section id="work" class="work">
+  <div class="container">
+    <h2 class="section-title">What I Create</h2>
+
+    <div class="row g-4 work-3d">
+
+      <!-- Mobile UI -->
+      <div class="col-md-6 col-lg-3">
+        <div class="create-card card-3d mobile-card" onclick="openMobileUI()">
+          <div class="card-illustration">
+            📱
+          </div>
+          <div class="card-content">
+            <h4>Mobile App UI</h4>
+            <span>Android • iOS • UX Flow</span>
+          </div>
+          <div class="card-glow"></div>
+        </div>
+      </div>
+
+      <!-- Web UI -->
+      <div class="col-md-6 col-lg-3">
+        <div class="create-card card-3d web-card" onclick="openWebUI()">
+          <div class="card-illustration">
+            🌐
+          </div>
+          <div class="card-content">
+            <h4>Website UI</h4>
+            <span>Responsive • SaaS</span>
+          </div>
+          <div class="card-glow"></div>
+        </div>
+      </div>
+
+      <!-- Wedding -->
+      <div class="col-md-6 col-lg-3">
+        <div class="create-card card-3d wedding-card">
+          <div class="card-illustration">
+            💍
+          </div>
+          <div class="card-content">
+            <h4>Wedding Cards</h4>
+            <span>Premium Designs</span>
+          </div>
+          <div class="card-glow"></div>
+        </div>
+      </div>
+
+      <!-- Video -->
+      <div class="col-md-6 col-lg-3">
+        <div class="create-card card-3d video-card">
+          <div class="card-illustration">
+            🎥
+          </div>
+          <div class="card-content">
+            <h4>Invitation Videos</h4>
+            <span>Motion Graphics</span>
+          </div>
+          <div class="card-glow"></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ================= MOBILE UI OVERLAY ================= -->
+<div class="mobile-overlay" id="mobileOverlay">
+  <span class="close-overlay" onclick="closeMobileUI()">✕</span>
+
+  <!-- ✅ ONE AND ONLY ONE HORIZONTAL CONTAINER -->
+  <div class="mobile-horizontal">
+
+    <!-- Glowbar -->
+    <div class="mobile-project">
+      <div class="phones">
+        <div class="phone-frame left"><img src="splash.png"></div>
+        <div class="phone-frame center"><img src="dashboard.png"></div>
+        <div class="phone-frame right"><img src="signup.png"></div>
+      </div>
+      <div class="project-info">
+        <h2>Glowbar</h2>
+        <p>Beauty & wellness booking app.</p>
+      </div>
+    </div>
+
+    <!-- PI-Count -->
+    <div class="mobile-project">
+      <div class="phones">
+        <div class="phone-frame left"><img src="pi-login.png"></div>
+        <div class="phone-frame center"><img src="pi-dashboard.png"></div>
+        <div class="phone-frame right"><img src="pi-options.png"></div>
+      </div>
+      <div class="project-info">
+        <h2>PI-Count</h2>
+        <p>Enterprise inventory audit system.</p>
+      </div>
+    </div>
+
+    <!-- Houzeo -->
+    <div class="mobile-project">
+      <div class="phones">
+        <div class="phone-frame left"><img src="houzeo-splash.png"></div>
+        <div class="phone-frame center"><img src="houzeo-dashboard.png"></div>
+        <div class="phone-frame right"><img src="houzeo-login.png"></div>
+      </div>
+      <div class="project-info">
+        <h2>Houzeo</h2>
+        <p>Property buy & rent app.</p>
+      </div>
+    </div>
+
+    <!-- E-Auction -->
+    <div class="mobile-project">
+      <div class="phones">
+        <div class="phone-frame left"><img src="eauction-login.png"></div>
+        <div class="phone-frame center"><img src="eauction-events.png"></div>
+        <div class="phone-frame right"><img src="eauction-bid.png"></div>
+      </div>
+      <div class="project-info">
+        <h2>E-Auction</h2>
+        <p>Live grain auction platform.</p>
+      </div>
+    </div>
+
+    <!-- CookDekho -->
+    <div class="mobile-project">
+      <div class="phones">
+        <div class="phone-frame left"><img src="cookdekho-splash.png"></div>
+        <div class="phone-frame center"><img src="cookdekho-dashboard.png"></div>
+        <div class="phone-frame right"><img src="cookdekho-login.png"></div>
+      </div>
+      <div class="project-info">
+        <h2>CookDekho</h2>
+        <p>Home chef booking platform.</p>
+      </div>
+    </div>
+
+    <!-- WMS -->
+    <div class="mobile-project">
+      <div class="phones">
+        <div class="phone-frame left"><img src="wms-login.png"></div>
+        <div class="phone-frame center"><img src="wms-dashboard.png"></div>
+        <div class="phone-frame right"><img src="wms-splash.png"></div>
+      </div>
+      <div class="project-info">
+        <h2>Warehouse Management System</h2>
+        <p>Reliance Retail • RF based WMS.</p>
+      </div>
+    </div>
+
+    <!-- Time Management -->
+    <div class="mobile-project">
+      <div class="phones">
+        <div class="phone-frame left"><img src="time-login.png"></div>
+        <div class="phone-frame center"><img src="time-dashboard.png"></div>
+        <div class="phone-frame right"><img src="time-attendance.png"></div>
+      </div>
+      <div class="project-info">
+        <h2>Time Management System</h2>
+        <p>Attendance • Daily Work Updates • Tasks</p>
+      </div>
+    </div>
+
+    <!-- Physical Inventory – Jio Store -->
+    <div class="mobile-project">
+      <div class="phones">
+        <div class="phone-frame left"><img src="jio-login.png"></div>
+        <div class="phone-frame center"><img src="jio-physical-inventory.png"></div>
+        <div class="phone-frame right"><img src="jio-splash.png"></div>
+      </div>
+      <div class="project-info">
+        <h2>Physical Inventory – Jio Store</h2>
+        <p>
+          Store-level physical inventory audit system for Jio Retail with
+          Pending, In-Progress & Completed tracking.
+        </p>
+      </div>
+    </div>
+
+    <!-- Shipment Tracker -->
+    <div class="mobile-project">
+      <div class="phones">
+        <div class="phone-frame left"><img src="shipment-login.png"></div>
+        <div class="phone-frame center"><img src="shipment-dashboard.png"></div>
+        <div class="phone-frame right"><img src="shipment-details.png"></div>
+      </div>
+      <div class="project-info">
+        <h2>Shipment Tracker</h2>
+        <p>Live shipment tracking system for Reliance Retail.</p>
+      </div>
+    </div>
+
+    <!-- NEOS -->
+    <div class="mobile-project">
+      <div class="phones">
+        <div class="phone-frame left"><img src="neos-splash.png"></div>
+        <div class="phone-frame center"><img src="neos-login.png"></div>
+        <div class="phone-frame right"><img src="neos-asset-search.png"></div>
+      </div>
+      <div class="project-info">
+        <h2>NEOS – Asset Tracking</h2>
+        <p>Serial-based asset verification & certification system.</p>
+      </div>
+    </div>
+
+    <!-- CHEZUBA -->
+    <div class="mobile-project">
+      <div class="phones">
+        <div class="phone-frame left"><img src="chezuba-project-list.png"></div>
+        <div class="phone-frame center"><img src="chezuba-application-status.png"></div>
+      </div>
+      <div class="project-info">
+        <h2>Chezuba</h2>
+        <p>Skill-based volunteering & project application platform.</p>
+      </div>
+    </div>
+
+    <!-- Care24 -->
+    <div class="mobile-project">
+      <div class="phones">
+        <div class="phone-frame left"><img src="care24-splash.png"></div>
+        <div class="phone-frame center"><img src="care24-login.png"></div>
+        <div class="phone-frame right"><img src="care24-signup.png"></div>
+      </div>
+      <div class="project-info">
+        <h2>Care24</h2>
+        <p>Healthcare platform for caregivers & patients.</p>
+      </div>
+    </div>
+
+    <!-- Physical Inventory Task Management -->
+    <div class="mobile-project">
+
+      <div class="phones">
+        <!-- Login / Splash -->
+        <div class="phone-frame left">
+          <img src="p-login.png" alt="PI Task Management Login Screen">
+        </div>
+
+        <!-- Task List / PI List -->
+        <div class="phone-frame center">
+          <img src="pi-task-list.png" alt="PI Task List Screen">
+        </div>
+
+        <!-- Task Details / Storage Info -->
+        <div class="phone-frame right">
+          <img src="pi-task-details.png" alt="PI Task Details Screen">
+        </div>
+      </div>
+
+      <div class="project-info">
+        <h2>Physical Inventory Task Management</h2>
+
+        <p>
+          Physical Inventory Task Management is a mobile-first enterprise application
+          designed for warehouse and retail operations. The app enables store and
+          warehouse users to securely log in, view assigned PI tasks, and manage
+          inventory verification efficiently.
+        </p>
+
+        <ul class="project-points">
+          <li>Secure login with warehouse & server selection</li>
+          <li>PI-wise task listing with expandable task cards</li>
+          <li>Storage bin, storage type & warehouse details</li>
+          <li>Optimized for large task volumes</li>
+          <li>Clean, touch-friendly mobile UI</li>
+          <li>Designed for on-ground inventory operations</li>
+        </ul>
+
+        <span class="project-tag">
+          Learning Project • Mobile App • Inventory • Enterprise UI
+        </span>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="scroll-hint">← Scroll →</div>
+</div>
+
+<!-- ================= WEB UI OVERLAY ================= -->
+<div class="web-overlay" id="webOverlay">
+  <span class="close-overlay" onclick="closeWebUI()">✕</span>
+
+  <!-- Horizontal container for web projects -->
+  <div class="web-horizontal">
+
+    <!-- IronTrac -->
+    <div class="web-project">
+
+      <div class="web-frames">
+        <div class="browser-frame">
+          <div class="browser-bar">
+            <span></span><span></span><span></span>
+          </div>
+          <img src="irontrac-login.png" />
+        </div>
+
+        <div class="browser-frame">
+          <div class="browser-bar">
+            <span></span><span></span><span></span>
+          </div>
+          <img src="irontrac-search.png" />
+        </div>
+
+        <div class="browser-frame">
+          <div class="browser-bar">
+            <span></span><span></span><span></span>
+          </div>
+          <img src="irontrac-dashboard.png" />
+        </div>
+      </div>
+
+      <div class="web-info">
+        <h2>IronTrac – Enterprise SaaS Platform</h2>
+        <p>
+          IronTrac is a responsive enterprise SaaS platform for asset lifecycle
+          tracking in oil & gas industries. It enables serial-based search,
+          inspection history, certification tracking, and compliance monitoring.
+        </p>
+
+        <ul class="web-points">
+          <li>Asset lifecycle & inspection tracking</li>
+          <li>Certified / Uncertified asset status</li>
+          <li>Serial & alternate serial number search</li>
+          <li>Secure login with Google authentication</li>
+          <li>Fully responsive SaaS dashboard</li>
+        </ul>
+
+        <span class="web-tag">Responsive • SaaS • Web App</span>
+      </div>
+
+    </div>
+
+    <!-- Swift Payment Tracking -->
+    <div class="web-project">
+
+      <div class="web-frames">
+
+        <!-- Login Screen -->
+        <div class="browser-frame horizontal">
+          <div class="browser-bar">
+            <span></span><span></span><span></span>
+          </div>
+          <img src="swift-login.png" alt="Swift Payment Tracking Login" />
+        </div>
+
+        <!-- Payment Request Voucher -->
+        <div class="browser-frame horizontal">
+          <div class="browser-bar">
+            <span></span><span></span><span></span>
+          </div>
+          <img src="swift-prv.png" alt="Payment Request Voucher Screen" />
+        </div>
+
+        <!-- Dashboard -->
+        <div class="browser-frame horizontal">
+          <div class="browser-bar">
+            <span></span><span></span><span></span>
+          </div>
+          <img src="swift-dashboard.png" alt="Swift Payment Tracking Dashboard" />
+        </div>
+
+      </div>
+
+      <div class="web-info">
+        <h2>Swift Payment Tracking – Reliance Retail</h2>
+
+        <p>
+          Swift Payment Tracking is an enterprise-grade web application designed for
+          <strong>Reliance Retail</strong> to manage and monitor SWIFT-based international
+          payment transactions. The platform enables end-to-end visibility of payment
+          requests, approvals, execution status, and financial tracking.
+        </p>
+
+        <ul class="web-points">
+          <li>SWIFT payment request voucher creation & tracking</li>
+          <li>Multi-level approval workflow (Approval 1 & Approval 2)</li>
+          <li>Vendor, invoice & charge bearer management</li>
+          <li>Real-time payment status & execution tracking</li>
+          <li>Centralized dashboard for finance & operations teams</li>
+          <li>Secure enterprise access for Reliance Retail users</li>
+        </ul>
+
+        <span class="web-tag">Enterprise • Finance • Web Application</span>
+      </div>
+
+    </div>
+
+    <!-- Shipment Connect -->
+    <div class="web-project">
+
+      <div class="web-frames">
+
+        <!-- Login -->
+        <div class="browser-frame horizontal">
+          <div class="browser-bar">
+            <span></span><span></span><span></span>
+          </div>
+          <img src="shipment-connect-login.png" />
+        </div>
+
+        <!-- OTP / Verification -->
+        <div class="browser-frame horizontal">
+          <div class="browser-bar">
+            <span></span><span></span><span></span>
+          </div>
+          <img src="shipment-connect-otp.png" />
+        </div>
+
+        <!-- Shipment Dashboard -->
+        <div class="browser-frame horizontal">
+          <div class="browser-bar">
+            <span></span><span></span><span></span>
+          </div>
+          <img src="shipment-connect-dashboard.png" />
+        </div>
+
+      </div>
+
+      <div class="web-info">
+        <h2>Shipment Connect – Reliance Retail</h2>
+
+        <p>
+          Shipment Connect is an enterprise web application developed for
+          Reliance Retail to manage and track end-to-end shipment operations.
+          The system provides real-time visibility of shipments from origin
+          to destination with secure access and operational transparency.
+        </p>
+
+        <ul class="web-points">
+          <li>Shipment creation & tracking (ASN based)</li>
+          <li>Search by Order No, Shipment ID & SCN</li>
+          <li>Real-time shipment status & amount visibility</li>
+          <li>Secure login with OTP verification</li>
+          <li>Download, filter & refresh shipment records</li>
+          <li>Enterprise-grade dashboard for logistics teams</li>
+        </ul>
+
+        <span class="web-tag">Enterprise • Logistics • Web App</span>
+      </div>
+
+    </div>
+
+    <!-- ZPACK – Reliance Retail -->
+    <div class="web-project">
+
+      <div class="web-frames horizontal">
+
+        <div class="browser-frame wide">
+          <div class="browser-bar">
+            <span></span><span></span><span></span>
+          </div>
+          <img src="zpack-login.png" />
+        </div>
+
+        <div class="browser-frame wide">
+          <div class="browser-bar">
+            <span></span><span></span><span></span>
+          </div>
+          <img src="zpack-process.png" />
+        </div>
+
+        <div class="browser-frame wide">
+          <div class="browser-bar">
+            <span></span><span></span><span></span>
+          </div>
+          <img src="zpack-dashboard.png" />
+        </div>
+
+      </div>
+
+      <div class="web-info">
+        <h2>ZPACK – Packaging & Dispatch Management System</h2>
+
+        <p>
+          ZPACK is an internal Reliance Retail web application designed to manage
+          end-to-end packaging, dispatch, and delivery workflows across distribution
+          centers. The system ensures accurate DC-level processing, shipment
+          readiness, and operational visibility.
+        </p>
+
+        <ul class="web-points">
+          <li>DC site & delivery date based login workflow</li>
+          <li>Packaging and dispatch process tracking</li>
+          <li>Create ID & shipment initiation flow</li>
+          <li>Operational dashboard for warehouse users</li>
+          <li>Enterprise-grade internal web application</li>
+        </ul>
+
+        <span class="web-tag">Enterprise • Web App • Reliance Retail</span>
+      </div>
+
+    </div>
+
+    <!-- Shipment with Purchase Order -->
+    <div class="web-project">
+
+      <div class="web-frames">
+
+        <div class="browser-frame">
+          <div class="browser-bar">
+            <span></span><span></span><span></span>
+          </div>
+          <img src="shipment-po-login.png" />
+        </div>
+
+        <div class="browser-frame">
+          <div class="browser-bar">
+            <span></span><span></span><span></span>
+          </div>
+          <img src="shipment-po-server-selection.png" />
+        </div>
+
+        <div class="browser-frame">
+          <div class="browser-bar">
+            <span></span><span></span><span></span>
+          </div>
+          <img src="shipment-po-dashboard.png" />
+        </div>
+
+      </div>
+
+      <div class="web-info">
+        <h2>Shipment with Purchase Order – Reliance Retail</h2>
+
+        <p>
+          Shipment with Purchase Order is an enterprise web application used by
+          Reliance Retail to manage end-to-end shipment execution against purchase
+          orders. The system enables secure login, server/environment selection,
+          shipment creation, tracking, and status monitoring across warehouses
+          and vendors.
+        </p>
+
+        <ul class="web-points">
+          <li>Purchase Order based shipment creation</li>
+          <li>Secure domain-based login & environment selection</li>
+          <li>Shipment status tracking (Draft, In-Process, Completed)</li>
+          <li>Vendor & warehouse level shipment visibility</li>
+          <li>Enterprise-grade responsive web dashboard</li>
+        </ul>
+
+        <span class="web-tag">Enterprise • Web App • Supply Chain</span>
+      </div>
+
+    </div>
+
+    <!-- Gift Cards & Vouchers – Reliance Retail -->
+    <div class="web-project">
+
+      <div class="web-frames">
+        <div class="browser-frame horizontal">
+          <div class="browser-bar">
+            <span></span><span></span><span></span>
+          </div>
+          <img src="gift-login.png" alt="Gift Voucher Login" />
+        </div>
+
+        <div class="browser-frame horizontal">
+          <div class="browser-bar">
+            <span></span><span></span><span></span>
+          </div>
+          <img src="gift-otp.png" alt="Gift Voucher OTP Verification" />
+        </div>
+
+        <div class="browser-frame horizontal">
+          <div class="browser-bar">
+            <span></span><span></span><span></span>
+          </div>
+          <img src="gift-dashboard.png" alt="Gift Voucher Dashboard" />
+        </div>
+      </div>
+
+      <div class="web-info">
+        <h2>Gift Cards & Vouchers – HR Platform</h2>
+
+        <p>
+          A centralized HR-driven Gift Cards & Gift Vouchers management platform
+          developed for Reliance Retail. The system enables secure distribution,
+          tracking, and redemption of digital gift cards for employees, partners,
+          and internal reward programs.
+        </p>
+
+        <ul class="web-points">
+          <li>Secure login with OTP-based authentication</li>
+          <li>HR-controlled gift card & voucher issuance</li>
+          <li>Employee-wise allocation & tracking</li>
+          <li>Real-time status of issued and redeemed vouchers</li>
+          <li>Audit-ready reports for compliance and reconciliation</li>
+        </ul>
+
+        <span class="web-tag">HR System • Gift Cards • Web Application</span>
+      </div>
+
+    </div>
+
+    <!-- Control Tower -->
+    <div class="web-project">
+
+      <div class="web-frames horizontal-scroll">
+        <div class="browser-frame">
+          <div class="browser-bar">
+            <span></span><span></span><span></span>
+          </div>
+          <img src="control-tower-login.png" alt="Control Tower Login" />
+        </div>
+
+        <div class="browser-frame">
+          <div class="browser-bar">
+            <span></span><span></span><span></span>
+          </div>
+          <img src="control-tower-dashboard.png" alt="Control Tower Dashboard" />
+        </div>
+
+        <div class="browser-frame">
+          <div class="browser-bar">
+            <span></span><span></span><span></span>
+          </div>
+          <img src="control-tower-map.png" alt="Supplier & Warehouse Map View" />
+        </div>
+      </div>
+
+      <div class="web-info">
+        <h2>Control Tower – Operations Intelligence Platform</h2>
+
+        <p>
+          Control Tower is a centralized operations monitoring platform designed for
+          Reliance Retail to provide real-time visibility across warehouses,
+          suppliers, inbound & outbound transportation, and purchase order execution.
+          It enables leadership teams to proactively monitor delays, optimize supply
+          chain performance, and improve fulfillment efficiency at scale.
+        </p>
+
+        <ul class="web-points">
+          <li>Real-time supplier lead time & delay monitoring</li>
+          <li>Zone, warehouse & vendor-based operational filters</li>
+          <li>PO execution & inbound/outbound transportation tracking</li>
+          <li>Warehouse performance & inventory visibility</li>
+          <li>Interactive geo-map view for pan-India operations</li>
+          <li>KPI-driven dashboard for decision-makers</li>
+        </ul>
+
+        <span class="web-tag">
+          Enterprise • Control Tower • Supply Chain • Web Platform
+        </span>
+      </div>
+
+    </div>
+
+    <!-- TradeAndMore -->
+    <div class="web-project">
+
+      <div class="web-frames horizontal-scroll">
+        
+        <!-- Screen 1 -->
+        <div class="browser-frame">
+          <div class="browser-bar">
+            <span></span><span></span><span></span>
+          </div>
+          <img src="tradeandmore-news-reviews.png" alt="TradeAndMore Hero Section" />
+        </div>
+
+        <!-- Screen 2 -->
+        <div class="browser-frame">
+          <div class="browser-bar">
+            <span></span><span></span><span></span>
+          </div>
+          <img src="tradeandmore-products.png" alt="TradeAndMore Featured Products" />
+        </div>
+
+        <!-- Screen 3 -->
+        <div class="browser-frame">
+          <div class="browser-bar">
+            <span></span><span></span><span></span>
+          </div>
+          <img src="tradeandmore-hero.png" alt="TradeAndMore News & Reviews" />
+        </div>
+
+      </div>
+
+      <div class="web-info">
+        <h2>TradeAndMore – Trading Platform (Learning Project)</h2>
+
+        <p>
+          TradeAndMore is a self-learning web project designed to practice modern UI/UX
+          patterns for trading and investment platforms. The screen focuses on
+          information hierarchy, data visualization, and conversion-driven layouts
+          commonly used in real-world fintech products.
+        </p>
+
+        <ul class="web-points">
+          <li>Hero section with trading search & CTA flow</li>
+          <li>Featured financial products & pricing cards</li>
+          <li>Market news & trader review sections</li>
+          <li>Subscription form for trading updates</li>
+          <li>Performance overview with charts & KPIs</li>
+          <li>Gradient-based modern fintech UI theme</li>
+        </ul>
+
+        <span class="web-tag">
+          Learning Project • Trading • FinTech UI • Web Design
+        </span>
+      </div>
+
+    </div>
+
+    <!-- CheZuba -->
+    <div class="web-project">
+
+      <div class="web-frames">
+        <div class="browser-frame">
+          <div class="browser-bar">
+            <span></span><span></span><span></span>
+          </div>
+          <img src="chezuba-dashboard.png" alt="CheZuba Project Dashboard" />
+        </div>
+      </div>
+
+      <div class="web-info">
+        <h2>CheZuba – Skill-Based Volunteering Platform</h2>
+
+        <p>
+          CheZuba is a global volunteering platform that connects skilled professionals
+          with NGOs and social impact organizations. This screen represents the
+          project discovery and application flow, focusing on clarity, accessibility,
+          and user-friendly information architecture.
+        </p>
+
+        <ul class="web-points">
+          <li>Project discovery dashboard with filters</li>
+          <li>Clear project status tracking (Applied, In Progress, Completed)</li>
+          <li>Cause-based and country-wise project categorization</li>
+          <li>Card-based layout for easy project comparison</li>
+          <li>Clean, minimal UI for better accessibility</li>
+        </ul>
+
+        <span class="web-tag">
+          Social Impact • Volunteering • Dashboard • Web App
+        </span>
+      </div>
+
+    </div>
+
+    <!-- Reliance Buyer First Portal -->
+    <div class="web-project">
+
+      <!-- Web Frames -->
+      <div class="web-frames horizontal-scroll">
+
+        <!-- Frame 1 -->
+        <div class="browser-frame">
+          <div class="browser-bar">
+            <span></span><span></span><span></span>
+          </div>
+          <img src="reliance-buyer-login.png" 
+               alt="Reliance Buyer First Portal Login Screen" />
+        </div>
+
+        <!-- Frame 2 -->
+        <div class="browser-frame">
+          <div class="browser-bar">
+            <span></span><span></span><span></span>
+          </div>
+          <img src="reliance-buyer-otp.png" 
+               alt="Reliance Buyer First Portal OTP Verification" />
+        </div>
+
+        <!-- Frame 3 -->
+        <div class="browser-frame">
+          <div class="browser-bar">
+            <span></span><span></span><span></span>
+          </div>
+          <img src="reliance-buyer-dashboard.png" 
+               alt="Reliance Buyer First Portal Orders Dashboard" />
+        </div>
+
+      </div>
+
+      <!-- Project Info -->
+      <div class="web-info">
+        <h2>Reliance Buyer First Portal</h2>
+
+        <p>
+          Reliance Buyer First Portal is an enterprise procurement platform built
+          to support buyer-first workflows. The system enables suppliers to securely
+          authenticate, manage purchase orders, track shipments, and monitor payment
+          status through a clean and scalable interface.
+        </p>
+
+        <ul class="web-points">
+          <li>Secure supplier login with OTP-based authentication</li>
+          <li>Buyer-first procurement & approval workflow</li>
+          <li>Purchase order listing with revision tracking</li>
+          <li>Shipment & order amount visibility</li>
+          <li>Enterprise-grade UI aligned with Reliance systems</li>
+          <li>Scalable design for high-volume supplier operations</li>
+        </ul>
+
+        <span class="web-tag">
+          Enterprise Portal • Buyer System • Procurement • Reliance Retail
+        </span>
+      </div>
+
+    </div>
+
+    <!-- Roy Brothers – Construction Equipment -->
+    <div class="web-project">
+
+      <!-- Screens / Frames -->
+      <div class="web-frames horizontal-scroll">
+
+        <!-- Hero / Landing -->
+        <div class="browser-frame">
+          <div class="browser-bar">
+            <span></span><span></span><span></span>
+          </div>
+          <img src="roybrothers-hero.png" alt="Roy Brothers Construction Equipment Landing Page" />
+        </div>
+
+        <!-- Machinery Catalog -->
+        <div class="browser-frame">
+          <div class="browser-bar">
+            <span></span><span></span><span></span>
+          </div>
+          <img src="roybrothers-catalog.png" alt="Construction Machinery Catalog UI" />
+        </div>
+
+        <!-- Order / Rent Form -->
+        <div class="browser-frame">
+          <div class="browser-bar">
+            <span></span><span></span><span></span>
+          </div>
+          <img src="roybrothers-order.png" alt="Construction Equipment Order Flow" />
+        </div>
+
+      </div>
+
+      <!-- Project Info -->
+      <div class="web-info">
+        <h2>Roy Brothers – Construction Equipment Platform (Learning Project)</h2>
+
+        <p>
+          Roy Brothers is a learning-based web UI project designed for a construction
+          equipment rental and ordering business. The project focuses on presenting
+          heavy machinery catalogs, category-based navigation, and a simple order /
+          rent workflow commonly used in construction and infrastructure platforms.
+        </p>
+
+        <ul class="web-points">
+          <li>High-impact hero section with construction branding</li>
+          <li>Machinery catalog with excavators, loaders & industrial equipment</li>
+          <li>Category-based equipment browsing</li>
+          <li>Order / rent form with date & equipment selection</li>
+          <li>Clean industrial UI with bold typography</li>
+          <li>Responsive layout for large-screen dashboards</li>
+        </ul>
+
+        <span class="web-tag">
+          Learning Project • Construction • Equipment Rental • Web UI
+        </span>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="scroll-hint">← Scroll →</div>
+</div>
+<!-- ================= ABOUT / EXPERIENCE ================= -->
+<section id="about" class="about-section">
+  <div class="container">
+
+    <!-- PROFILE -->
+    <div class="profile-wrap">
+      <div class="profile-photo">
+        <!-- replace profile.jpg with your photo -->
+        <img src="profile.jpg" alt="Siddharth Roy">
+      </div>
+
+      <div class="profile-info">
+        <h2>Siddharth Roy</h2>
+        <h4>UI/UX Designer</h4>
+        <p>
+          Dynamic UI/UX Designer with <strong>5+ years of experience</strong> specializing
+          in enterprise platforms, mobile applications, and SaaS products.
+          Strong expertise in Figma, responsive design systems, and
+          business-driven UX solutions.
+        </p>
+      </div>
+    </div>
+
+    <!-- EXPERIENCE -->
+    <h3 class="sub-title">Work Experience</h3>
+
+    <div class="timeline">
+
+      <div class="timeline-item">
+        <span class="time">Jun 2025 – Present</span>
+        <h4>UI/UX Designer</h4>
+        <h5>Vidya Online Services (Indian Navy)</h5>
+        <ul>
+          <li>Designed multiple websites with strong UX focus</li>
+          <li>Created wireframes & interactive prototypes</li>
+          <li>Conducted usability testing and design validation</li>
+        </ul>
+      </div>
+
+      <div class="timeline-item">
+        <span class="time">Jan 2024 – Jun 2025</span>
+        <h4>UI/UX Designer</h4>
+        <h5>Quess Corp (Reliance Consultant)</h5>
+        <ul>
+          <li>Designed enterprise platforms for Reliance Retail</li>
+          <li>Shipment Tracker Mobile APK & Web Systems</li>
+          <li>Worked across global teams & time zones</li>
+          <li>Enhanced platforms using JavaScript-based UI</li>
+        </ul>
+      </div>
+
+      <div class="timeline-item">
+        <span class="time">Dec 2022 – Dec 2023</span>
+        <h4>UI/UX Designer</h4>
+        <h5>Rigved Technologies (Reliance Consultant)</h5>
+        <ul>
+          <li>Designed WMS, ZPACK, Control Tower & Swift Payment</li>
+          <li>Built mobile-first & responsive web applications</li>
+          <li>Improved UX across 30+ enterprise screens</li>
+        </ul>
+      </div>
+
+      <div class="timeline-item">
+        <span class="time">Sep 2020 – Nov 2022</span>
+        <h4>UI/UX Developer</h4>
+        <h5>SAITS India Pvt. Ltd.</h5>
+        <ul>
+          <li>Built SaaS UI for ecommerce, aviation & healthcare</li>
+          <li>Created modular responsive UI systems</li>
+          <li>Executed A/B testing & UX improvements</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- SKILLS -->
+    <h3 class="sub-title">Skills</h3>
+
+    <div class="skills-grid">
+
+      <div class="skill-cube">Figma</div>
+      <div class="skill-cube">UI Design</div>
+      <div class="skill-cube">UX Research</div>
+      <div class="skill-cube">Prototyping</div>
+      <div class="skill-cube">HTML / CSS</div>
+      <div class="skill-cube">Bootstrap</div>
+      <div class="skill-cube">JavaScript</div>
+      <div class="skill-cube">TypeScript</div>
+      <div class="skill-cube">Mobile UI</div>
+      <div class="skill-cube">SaaS Design</div>
+      <div class="skill-cube">Design Systems</div>
+      <div class="skill-cube">A/B Testing</div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ================= CONTACT ================= -->
+<section id="contact" class="contact">
+  <div class="container">
+    <h2 class="contact-title">Let’s Work Together</h2>
+    <p class="contact-sub">Available for freelance & full-time roles</p>
+
+    <div class="contact-grid">
+      <a href="tel:9518781914" class="contact-card">📞 95187 81914</a>
+      <a href="mailto:siddharthroy65@gmail.com" class="contact-card">✉️ siddharthroy65@gmail.com</a>
+      <a href="https://www.linkedin.com/in/siddharth-roy-5ba628144/" target="_blank" class="contact-card">
+        💼 LinkedIn
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">© 2025 Siddharth Roy</footer>
+
+<script>
+function openMobileUI(){
+  document.getElementById("mobileOverlay").style.display = "block";
+  document.body.style.overflow = "hidden";
+}
+function closeMobileUI(){
+  document.getElementById("mobileOverlay").style.display = "none";
+  document.body.style.overflow = "auto";
+}
+
+function openWebUI(){
+  document.getElementById("webOverlay").style.display = "block";
+  document.body.style.overflow = "hidden";
+}
+function closeWebUI(){
+  document.getElementById("webOverlay").style.display = "none";
+  document.body.style.overflow = "auto";
+}
+</script>
+
+</body>
+</html>
