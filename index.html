@@ -132,6 +132,8 @@
 <!-- ================= MOBILE UI OVERLAY ================= -->
 <div class="mobile-overlay" id="mobileOverlay">
   <span class="close-overlay" onclick="closeMobileUI()">✕</span>
+  <button class="nav-btn prev-btn" onclick="scrollMobileLeft()">←</button>
+  <button class="nav-btn next-btn" onclick="scrollMobileRight()">→</button>
 
   <!-- ✅ ONE AND ONLY ONE HORIZONTAL CONTAINER -->
   <div class="mobile-horizontal">
@@ -146,6 +148,12 @@
       <div class="project-info">
         <h2>Glowbar</h2>
         <p>Beauty & wellness booking app.</p>
+        <ul class="project-points">
+          <li>Appointment scheduling</li>
+          <li>Service provider profiles</li>
+          <li>Payment integration</li>
+        </ul>
+        <span class="project-tag">Mobile App</span>
       </div>
     </div>
 
@@ -159,6 +167,12 @@
       <div class="project-info">
         <h2>PI-Count</h2>
         <p>Enterprise inventory audit system.</p>
+        <ul class="project-points">
+          <li>Barcode scanning</li>
+          <li>Real-time inventory tracking</li>
+          <li>Compliance reporting</li>
+        </ul>
+        <span class="project-tag">Mobile App</span>
       </div>
     </div>
 
@@ -172,6 +186,13 @@
       <div class="project-info">
         <h2>Houzeo</h2>
         <p>Property buy & rent app.</p>
+        <ul class="project-points">
+          <li>Property listings</li>
+          <li>Virtual tours</li>
+          <li>Agent communication</li>
+        </ul>
+        <span class="project-tag">Mobile App</span>
+        <a href="#" class="figma-btn">View on Figma</a>
       </div>
     </div>
 
@@ -185,6 +206,13 @@
       <div class="project-info">
         <h2>E-Auction</h2>
         <p>Live grain auction platform.</p>
+        <ul class="project-points">
+          <li>Live bidding</li>
+          <li>Auction listings</li>
+          <li>Real-time notifications</li>
+        </ul>
+        <span class="project-tag">Mobile App</span>
+        <a href="#" class="figma-btn">View on Figma</a>
       </div>
     </div>
 
@@ -198,6 +226,13 @@
       <div class="project-info">
         <h2>CookDekho</h2>
         <p>Home chef booking platform.</p>
+        <ul class="project-points">
+          <li>Chef profiles</li>
+          <li>Menu browsing</li>
+          <li>Order tracking</li>
+        </ul>
+        <span class="project-tag">Mobile App</span>
+        <a href="#" class="figma-btn">View on Figma</a>
       </div>
     </div>
 
@@ -211,6 +246,13 @@
       <div class="project-info">
         <h2>Warehouse Management System</h2>
         <p>Reliance Retail • RF based WMS.</p>
+        <ul class="project-points">
+          <li>Inventory management</li>
+          <li>RF scanning</li>
+          <li>Order processing</li>
+        </ul>
+        <span class="project-tag">Mobile App</span>
+        <a href="#" class="figma-btn">View on Figma</a>
       </div>
     </div>
 
@@ -224,6 +266,13 @@
       <div class="project-info">
         <h2>Time Management System</h2>
         <p>Attendance • Daily Work Updates • Tasks</p>
+        <ul class="project-points">
+          <li>Attendance tracking</li>
+          <li>Task management</li>
+          <li>Daily updates</li>
+        </ul>
+        <span class="project-tag">Mobile App</span>
+        <a href="#" class="figma-btn">View on Figma</a>
       </div>
     </div>
 
@@ -240,6 +289,13 @@
           Store-level physical inventory audit system for Jio Retail with
           Pending, In-Progress & Completed tracking.
         </p>
+        <ul class="project-points">
+          <li>Inventory auditing</li>
+          <li>Status tracking</li>
+          <li>Store management</li>
+        </ul>
+        <span class="project-tag">Mobile App</span>
+        <a href="#" class="figma-btn">View on Figma</a>
       </div>
     </div>
 
@@ -253,6 +309,13 @@
       <div class="project-info">
         <h2>Shipment Tracker</h2>
         <p>Live shipment tracking system for Reliance Retail.</p>
+        <ul class="project-points">
+          <li>Shipment tracking</li>
+          <li>Live updates</li>
+          <li>Delivery status</li>
+        </ul>
+        <span class="project-tag">Mobile App</span>
+        <a href="#" class="figma-btn">View on Figma</a>
       </div>
     </div>
 
@@ -266,6 +329,13 @@
       <div class="project-info">
         <h2>NEOS – Asset Tracking</h2>
         <p>Serial-based asset verification & certification system.</p>
+        <ul class="project-points">
+          <li>Asset verification</li>
+          <li>Certification tracking</li>
+          <li>Serial management</li>
+        </ul>
+        <span class="project-tag">Mobile App</span>
+        <a href="#" class="figma-btn">View on Figma</a>
       </div>
     </div>
 
@@ -278,6 +348,13 @@
       <div class="project-info">
         <h2>Chezuba</h2>
         <p>Skill-based volunteering & project application platform.</p>
+        <ul class="project-points">
+          <li>Volunteering opportunities</li>
+          <li>Skill matching</li>
+          <li>Project applications</li>
+        </ul>
+        <span class="project-tag">Mobile App</span>
+        <a href="#" class="figma-btn">View on Figma</a>
       </div>
     </div>
 
@@ -291,6 +368,12 @@
       <div class="project-info">
         <h2>Care24</h2>
         <p>Healthcare platform for caregivers & patients.</p>
+        <ul class="project-points">
+          <li>Caregiver profiles</li>
+          <li>Patient management</li>
+          <li>Appointment scheduling</li>
+        </ul>
+        <span class="project-tag">Mobile App</span>
       </div>
     </div>
 
@@ -1063,6 +1146,16 @@ function openMobileUI(){
 function closeMobileUI(){
   document.getElementById("mobileOverlay").style.display = "none";
   document.body.style.overflow = "auto";
+}
+
+function scrollMobileLeft(){
+  const container = document.querySelector('.mobile-horizontal');
+  container.scrollBy({ left: -window.innerWidth, behavior: 'smooth' });
+}
+
+function scrollMobileRight(){
+  const container = document.querySelector('.mobile-horizontal');
+  container.scrollBy({ left: window.innerWidth, behavior: 'smooth' });
 }
 
 function openWebUI(){

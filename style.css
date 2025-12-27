@@ -220,6 +220,28 @@ body {
   cursor: pointer;
 }
 
+.nav-btn {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  padding: 10px 20px;
+  background: rgba(255,255,255,.1);
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 50%;
+  backdrop-filter: blur(10px);
+}
+
+.prev-btn {
+  left: 20px;
+}
+
+.next-btn {
+  right: 20px;
+}
+
 /* HORIZONTAL FLOW */
 .mobile-horizontal {
   display: flex;
